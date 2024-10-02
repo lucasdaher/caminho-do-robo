@@ -103,7 +103,6 @@ int main()
 {
   int N;
 
-  printf("Bem-vindo(a) ao caminho do robo!\n");
   printf("Digite o numero de ciclos: \n");
   scanf("%d", &N);
 
@@ -115,12 +114,12 @@ int main()
   if (pontoFinal.X == -1 && pontoFinal.Y == -1)
   {
     printf("Ponto final: NULL\n");
-    printf("Distância total percorrida: %d\n", distanciaTotal);
+    printf("Distancia total percorrida: %d\n", distanciaTotal);
   }
   else
   {
     printf("Ponto final: (%d, %d)\n", pontoFinal.X, pontoFinal.Y);
-    printf("Distância total percorrida: %d\n", distanciaTotal);
+    printf("Distancia total percorrida: %d\n", distanciaTotal);
 
     Ponto *atual = caminhoRobo->Origem;
     while (atual != NULL)
