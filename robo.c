@@ -80,8 +80,6 @@ Ponto Final(Caminho *C)
       C->Distancia++;
     }
 
-    // Isso aqui vai funcionar como: 1 + 1 + 2 + 2 + 3 + 3 ... n + n
-
     direcao = (direcao + 1) % 4;
     if (i % 2 == 1)
     {
